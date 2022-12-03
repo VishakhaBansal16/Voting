@@ -3,7 +3,7 @@ pragma solidity >=0.7.0 < 0.8.0;
 contract Ballot{
     struct vote{
         address voterAddress;
-        string choice; // yes, no or not interested
+        string choice; // yes, no or not interested- 3 options
     }
     struct voter{
         string voterName;
